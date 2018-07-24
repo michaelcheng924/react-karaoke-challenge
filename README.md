@@ -26,17 +26,9 @@ It's now up to you to fix the rest of the codebase before the start of Karaoke N
 - Run `npm install` to install your dependencies.
 - Run `npm start` and the project will be running on `localhost:3000`.
 
-#### Backend
-
-- Clone this repository in a different directory: `https://github.com/hysan/react-karaoke-challenge-backend`
-- `cd` into it.
-- Run `bundle` to install your dependencies.
-- Run `rails db:create && rails db:migrate && rails db:seed` to create and seed your database.
-- Run `rails s -p 4000` and the API will be running on `localhost:4000`.
-
 **Routes**
 
-- URL for database: `http://localhost:4000`
+- URL for database: `https://karaoke-challenge-backend.herokuapp.com/`
 - You will be given a `:user_id`
 
 **Please use your own ID or else you will be editing someone else's data!**
